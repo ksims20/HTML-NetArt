@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <title> Mark Napier </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+<div class="search">
+    
+    <form>
+        
+        
+    
+    <h1> Mark Napier's Search Engine </h1>
+        
+        <input type="Search" placeholder="What are you looking for?" name="Search"> <br>
+        
+        <button id="search"> <a href="SecondPage.html"> Search</a> </button>
+    
+    
+    </form>
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <div id="slider">
+    
+    <div id="box">
+        
+        <img src="a.jpg">
+        
+        </div>
+        
+        
+<!--
+        <button class="prew" onclick="prewImage()">-</button>
+        <button class="next" onclick="nextImage()">+</button>
+-->
+        
+    
+    </div>
+    
+    <script type="text/javascript">
+    
+    var slider_content = document.getElementById('box');
+        
+        var image = ['a', 'b', 'c', 'd', 'e', 'f'];
+        
+        var i = image.length;
+        
+        function nextImage(){
+            if(i<image.length){
+                i = i+1;
+            } else {
+                i = 1;
+            }
+            slider_content.innerHTML= "<img src=" + image[i-1] + ".jpg>";
+        }
+    
+    function prewImage(){
+      if (i<image.length+1 && i>1){
+      i = i+1;
+     } else {
+        i=image.length;
+      }
+          slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+    }    
+    
+        
+        
+    setInterval(nextImage, 3000);    
+        
+        
+    </script>
+    
+    
+    
+    <br>
+    <h2> About Mark Napier</h2>
+    <br>
+    <br>
+    
+    <p> Mark Napier, born 1961, is an early adopter of the web and a pioneer of digital and Internet art. In 1984, he graduated from Syracuse University with a bachelors degree in Fine Arts. Afterwards, he worked as a self-taught programmer in New York until 1995, when a friend of his introduced him to the Internet, and he would begin to experiment with hypertext and online interactive work. He produced a wide range of Internet projects such as Riot (1999) which is what we used to create our second image, in addition to Shredder 1.0 (1998) and net.flag (2002). Aesthetically, his work appears random and disorganized, almost chaotic. To call these aesthetic choices deliberate would not be exactly correct. Napiers art is created through code-based software that takes different elements and creates something completely new. Napiers web-based experiments result in the seemingly chaotic aesthetic that his works are known for, and it is this type of expression that Napier enjoys when creating his works. Napier has also taken his methods and made them public through his usage of art interfaces. These art interfaces are web-based applications that anyone can use to create interactive web art in the same style that Napier is known for. To not call Napier a true artist would be to disrespect him. Art by definition is “diverse range of human activity, and resulting product, that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power, or conceptual ideas. Upon viewing any of Mark Napiers work, one will immediately see the imaginative aspect of his pieces. To take elements of the Internet that have been in the public domain for years and edit them to create something entirely new and unfamiliar is a truly creative process, and one that Napier has demonstrated extreme proficiency and talent in. 
+
+    
+        
+        
+        
+        
+        
+        
+        
+        <br>
+        <br>
+        
+        Citations
+        <br>
+        <br>
+    
+        
+<i> Archive of Digital Art (ADA). “Mark Napier - »Riot«”. https://www.digitalartarchive.at/database/general/work/riot.html (retrieved 2014-07-10). @online{ADAartistprofile, author = {Archive of Digital Art (ADA)}, title = {Mark Napier - »Riot«}, url = {https://www.digitalartarchive.at/database/general/work/riot.html}, urldate = {retrieved 2014-07-10}  </i> 
+        
+        <br>
+        <br>
+        
+        
+<i> Mark Napier. MARK NAPIER - ADA | Archive of Digital Art. (n.d.). Retrieved November 2, 2022, </i> 
+    
+    <br>
+    <br>
+    
+ <i>   Wikimedia Foundation. (2021, December 4). Mark Napier (artist). Wikipedia. Retrieved November 2, 2022, from https://en.wikipedia.org/wiki/Mark_Napier_(artist)  </i> 
+        
+        <br>
+        <br>
+        
+   <i>    Mahrt, E., and Kolter, T. (n.d.). Focused artist – Mark Napier. Proud Magazine. Retrieved November 2, 2022, from http://proudmagazine.de/focused-artist-mark-napier/  </i> 
+        
+    </p>
+    
+    </div>
+  
+    
+
+
+</body>
+
+
+
+
+</html>
